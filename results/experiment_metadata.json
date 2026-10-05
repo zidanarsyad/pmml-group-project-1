@@ -1,0 +1,130 @@
+{
+  "dataset_url": "https://archive.ics.uci.edu/static/public/602/dry+bean+dataset.zip",
+  "dataset_sha256": "0a64eff5be87f48c3dbbfc0a12a56c5d5b5167ef8e61cd45d69b3e7c7130c06f",
+  "versions": {
+    "python": "3.12.10",
+    "torch": "2.10.0+cpu",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "sklearn": "1.8.0",
+    "scipy": "1.16.3",
+    "device": "cpu"
+  },
+  "raw_rows": 13611,
+  "duplicates_removed": 68,
+  "clean_rows": 13543,
+  "training_examples": 9480,
+  "validation_examples": 2031,
+  "test_examples": 2032,
+  "split_seed": 42,
+  "seeds": [
+    7,
+    21,
+    42
+  ],
+  "configs": [
+    {
+      "name": "MLP-32",
+      "hidden": [
+        32
+      ],
+      "lr": 0.001,
+      "dropout": 0.0,
+      "weighted": false
+    },
+    {
+      "name": "MLP-base",
+      "hidden": [
+        64,
+        32
+      ],
+      "lr": 0.001,
+      "dropout": 0.0,
+      "weighted": false
+    },
+    {
+      "name": "MLP-low-lr",
+      "hidden": [
+        64,
+        32
+      ],
+      "lr": 0.0003,
+      "dropout": 0.0,
+      "weighted": false
+    },
+    {
+      "name": "MLP-high-lr",
+      "hidden": [
+        64,
+        32
+      ],
+      "lr": 0.003,
+      "dropout": 0.0,
+      "weighted": false
+    },
+    {
+      "name": "MLP-dropout",
+      "hidden": [
+        64,
+        32
+      ],
+      "lr": 0.001,
+      "dropout": 0.2,
+      "weighted": false
+    },
+    {
+      "name": "MLP-weighted",
+      "hidden": [
+        64,
+        32
+      ],
+      "lr": 0.001,
+      "dropout": 0.0,
+      "weighted": true
+    }
+  ],
+  "selected_config": {
+    "name": "MLP-high-lr",
+    "hidden": [
+      64,
+      32
+    ],
+    "lr": 0.003,
+    "dropout": 0.0,
+    "weighted": false
+  },
+  "max_epochs": 40,
+  "patience": 8,
+  "batch_size": 256,
+  "features": [
+    "Area",
+    "Perimeter",
+    "MajorAxisLength",
+    "MinorAxisLength",
+    "AspectRation",
+    "Eccentricity",
+    "ConvexArea",
+    "EquivDiameter",
+    "Extent",
+    "Solidity",
+    "roundness",
+    "Compactness",
+    "ShapeFactor1",
+    "ShapeFactor2",
+    "ShapeFactor3",
+    "ShapeFactor4"
+  ],
+  "classes": [
+    "BARBUNYA",
+    "BOMBAY",
+    "CALI",
+    "DERMASON",
+    "HOROZ",
+    "SEKER",
+    "SIRA"
+  ],
+  "example_seed": 7,
+  "example_errors": 153,
+  "example_accuracy": 0.9247047244094488,
+  "example_macro_f1": 0.9376624902475524
+}

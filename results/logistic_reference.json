@@ -1,0 +1,6 @@
+{
+  "name": "Logistic regression",
+  "val_macro_f1": 0.9313788167940461,
+  "test_accuracy": 0.921751968503937,
+  "test_macro_f1": 0.934867494254538
+}
