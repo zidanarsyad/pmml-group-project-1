@@ -202,8 +202,8 @@ After uploading, replace slide 11's code-URL placeholder with the actual GitHub 
 ## Attribution and references
 
 1. **Dry Bean (2020).** UCI Machine Learning Repository. [DOI 10.24432/C50S4B](https://doi.org/10.24432/C50S4B). Dataset licensed CC BY 4.0. The bundled archive is the original download; duplicate removal happens in the notebook.
-2. **Afiahayati.** *4.1. MLP to Deep Learning*. Course material.
-3. **Group Mini Project.** *4.2. Group Mini Project*, page 1. Assignment instructions.
+2. **Afiahayati.** *MLP to Deep Learning*. Course material.
+3. **Group Mini Project.** *Group Mini Project 1*, page 1. Assignment instructions.
 4. **PyTorch:** [CrossEntropyLoss](https://docs.pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html) and [Reproducibility](https://docs.pytorch.org/docs/stable/notes/randomness.html).
 5. **scikit-learn:** [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) and [LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html).
 
