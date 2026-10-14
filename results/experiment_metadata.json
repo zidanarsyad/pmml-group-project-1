@@ -2,12 +2,12 @@
   "dataset_url": "https://archive.ics.uci.edu/static/public/602/dry+bean+dataset.zip",
   "dataset_sha256": "0a64eff5be87f48c3dbbfc0a12a56c5d5b5167ef8e61cd45d69b3e7c7130c06f",
   "versions": {
-    "python": "3.12.10",
-    "torch": "2.10.0+cpu",
-    "numpy": "2.3.5",
-    "pandas": "2.3.3",
-    "sklearn": "1.8.0",
-    "scipy": "1.16.3",
+    "python": "3.12.3",
+    "torch": "2.6.0+cpu",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "sklearn": "1.5.1",
+    "scipy": "1.13.0",
     "device": "cpu"
   },
   "raw_rows": 13611,
