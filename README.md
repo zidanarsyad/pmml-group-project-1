@@ -2,7 +2,7 @@
 
 An **Advanced Deep Learning** group project comparing small multilayer perceptrons (MLPs) for classifying seven dry bean varieties from sixteen measured size and shape features.
 
-The project includes a fully explained notebook, eighteen neural training runs, a logistic-regression reference, a twelve-slide presentation, and presentation preparation materials.
+The project includes a fully explained notebook, eighteen neural training runs, a logistic-regression reference, a report and a powerpoint presentation.
 
 **Selected model:** an MLP with hidden layers of 64 and 32 units and learning rate 0.003. Its held-out test performance is **92.44% mean accuracy** and **0.9373 mean macro-F1** across three seeds. Its advantage over logistic regression is modest; no statistical significance claim is made.
 
@@ -20,13 +20,9 @@ The inputs are features already extracted from images. This project classifies n
 | [Dry_Bean_Presentation.pptx](Dry_Bean_Presentation.pptx) | Twelve editable slides with speaker notes |
 | [Project_Report.md](Project_Report.md) | Full methodology, measured results, interpretation, and limitations |
 | [Presentation_Script.md](Presentation_Script.md) | Approximately fourteen-minute script for four speakers |
-| [Must_Know_Before_Presenting.md](Must_Know_Before_Presenting.md) | Concepts, model arithmetic, code walkthrough, and likely questions |
-| [Study_Guide.html](Study_Guide.html) | Browser-readable study materials; download and open locally |
 | [results/](results/) | Experiment tables, figures, split indices, metadata, predictions, and model checkpoint |
 | [drybean.zip](drybean.zip) | Original public UCI dataset archive for optional offline use |
 | [drybean_results.zip](drybean_results.zip) | Notebook-generated experiment output bundle |
-
-Suggested reading order: report, notebook, preparation guide, then presentation and script.
 
 ## Dataset
 
@@ -186,18 +182,11 @@ Next steps are repeated development splits and an independent acquisition-sessio
 
 | Member | Student ID | Proposed responsibility |
 |---|---|---|
-| [Member 1 name] | [Student ID 1] | Problem, dataset, and preprocessing |
-| [Member 2 name] | [Student ID 2] | Architectures and training |
-| [Member 3 name] | [Student ID 3] | Experiments and error analysis |
-| [Member 4 name] | [Student ID 4] | Documentation, presentation, and reproducibility |
+| PUYOU-BRACQ Edgar | 26/581691/NPA/20031 | Problem, dataset, and preprocessing |
+| Aulia Gita Pratiwi | 25/572701/PPA/07197 | Architectures and training |
+| Muhammad Zidan Arsyad | 25/572381/PPA/07192 | Experiments and error analysis |
+| Farichaturrifqi Aryanitasari | 25/574224/PPA/07240 | Documentation, presentation, and reproducibility |
 
-Replace identities and adjust duties to reflect actual contributions. All members should understand the notebook and evaluation protocol.
-
-## Preparing the GitHub repository
-
-Upload the **contents of this deliverables folder**, or the extracted complete-project ZIP, into the repository root. This places `README.md` on the homepage and keeps its relative links working. Upload individual files, not only the ZIP archive.
-
-After uploading, replace slide 11's code-URL placeholder with the actual GitHub repository/notebook URL or a shared Colab notebook URL. Adjust its explanatory text if using GitHub instead of a Drive-shared notebook. A generic homepage is not a link to your project code.
 
 ## Attribution and references
 
